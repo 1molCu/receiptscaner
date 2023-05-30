@@ -31,12 +31,12 @@ class MainPage extends StatelessWidget {
                     color: Colors.white,
                   ),
                   itemBuilder: ((context) => [
-                        PopupMenuItem(
+                        const PopupMenuItem(
                           value: 'qr_code_scanner',
                           child: Flex(
                             direction: Axis.horizontal,
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Padding(
                                 padding:
                                     EdgeInsets.fromLTRB(0.0, 0.0, 10.0, 0.0),
@@ -53,12 +53,12 @@ class MainPage extends StatelessWidget {
                             ],
                           ),
                         ),
-                        PopupMenuItem(
+                        const PopupMenuItem(
                           value: 'setting',
                           child: Flex(
                             direction: Axis.horizontal,
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Padding(
                                 padding:
                                     EdgeInsets.fromLTRB(0.0, 0.0, 10.0, 0.0),
